@@ -1,0 +1,11 @@
+[Authentication]
+client_id = YOUR_CLIENT_ID 
+client_secret = YOUR_CLIENT_SECRET 
+user_agent = YOUR_USER_AGENT
+username = YOUR_USERNAME 
+password = YOUR_PASSWORD
+
+[Message]
+default_user = YOUR_DEFAULT_USER
+default_subject = YOUR_DEFAULT_SUBJECT
+
