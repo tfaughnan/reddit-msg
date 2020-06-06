@@ -1,6 +1,6 @@
 # reddit-msg
 
-A barebones CLI for sending Reddit messages with [PRAW](https://praw.readthedocs.io). Made this so I can execute scripts with long/unknown runtimes, walk away from my computer, and get notified on my phone when it's done. Email/SMS could work too, but chances are I'd be browsing Reddit anyway while waiting. E.g. `$ some-script ; reddit-msg "script is done"`
+A barebones CLI for sending Reddit messages with [PRAW](https://praw.readthedocs.io). Made this so I can execute scripts with long/unknown runtimes, walk away from my computer, and get notified on my phone when it's done. Email/SMS could work too, but chances are I'd be browsing Reddit anyway while waiting. 
 
 ## Requirements
 
@@ -18,6 +18,7 @@ A barebones CLI for sending Reddit messages with [PRAW](https://praw.readthedocs
 
 ## Usage
 
+My typical usage: `$ some-script ; reddit-msg "script is done"`
 From the `--help` flag:
 
 	usage: reddit-msg.py [-h] [-u USER] [-s SUBJECT] body
